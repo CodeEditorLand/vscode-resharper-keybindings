@@ -1,20 +1,7 @@
 {
-  "name": "resharper9-keybindings",
-  "displayName": "Resharper 9 Keybindings",
-  "version": "1.1.0",
-  "description": "Port of Resharper 9 Keybindings",
   "bugs": {
-    "url": "https://github.com/waderyan/vscode-resharper-keybindings/issues",
-    "email": "wade.anderson@microsoft.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/waderyan/vscode-resharper-keybindings"
-  },
-  "license": "license.txt",
-  "publisher": "waderyan",
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install"
+    "email": "wade.anderson@microsoft.com",
+    "url": "https://github.com/waderyan/vscode-resharper-keybindings/issues"
   },
   "contributes": {
     "keybindings": [
@@ -80,12 +67,25 @@
       }
     ]
   },
+  "description": "Port of Resharper 9 Keybindings",
   "devDependencies": {
-    "vscode": "^0.11.0"
+    "vscode": "0.11.0"
   },
-  "icon": "keyboard.png",
+  "displayName": "Resharper 9 Keybindings",
   "galleryBanner": {
     "color": "#0000FF",
     "theme": "dark"
-  }
+  },
+  "icon": "keyboard.png",
+  "license": "license.txt",
+  "name": "resharper9-keybindings",
+  "publisher": "waderyan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waderyan/vscode-resharper-keybindings"
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "version": "1.1.0"
 }
