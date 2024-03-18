@@ -83,7 +83,7 @@
         "postinstall": "node ./node_modules/vscode/bin/install"
     },
     "devDependencies": {
-        "vscode": "^0.11.0"
+        "vscode": "0.11.0"
     },
     "repository": {
         "type": "git",
