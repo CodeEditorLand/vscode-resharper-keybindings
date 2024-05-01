@@ -1,11 +1,30 @@
 {
-	"author": {
-		"email": "Land@PlayForm.Cloud",
-		"name": "🌆 — Land —",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
+	"name": "resharper9-keybindings",
+	"displayName": "Resharper 9 Keybindings",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Port of Resharper 9 Keybindings",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandResharperKeybindings#readme",
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandResharperKeybindings/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandResharperKeybindings.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"contributes": {
 		"keybindings": [
@@ -71,35 +90,16 @@
 			}
 		]
 	},
-	"description": "Port of Resharper 9 Keybindings",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6"
 	},
-	"displayName": "Resharper 9 Keybindings",
-	"galleryBanner": {
-		"color": "#0000FF",
-		"theme": "dark"
-	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandResharperKeybindings#readme",
-	"icon": "keyboard.png",
-	"keywords": [
-		"land"
-	],
-	"license": "SEE LICENSE IN LICENSE",
-	"name": "resharper9-keybindings",
-	"private": false,
 	"publishConfig": {
 		"access": "public"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandResharperKeybindings.git"
-	},
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
-	},
-	"type": "module",
-	"version": "0.0.1"
+	"icon": "keyboard.png",
+	"galleryBanner": {
+		"color": "#0000FF",
+		"theme": "dark"
+	}
 }
