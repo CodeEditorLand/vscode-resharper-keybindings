@@ -1,4 +1,8 @@
 {
+	"name": "resharper9-keybindings",
+	"displayName": "Resharper 9 Keybindings",
+	"description": "Port of Resharper 9 Keybindings",
+	"scripts": {},
 	"contributes": {
 		"keybindings": [
 			{
@@ -63,14 +67,10 @@
 			}
 		]
 	},
-	"description": "Port of Resharper 9 Keybindings",
 	"devDependencies": {},
-	"displayName": "Resharper 9 Keybindings",
+	"icon": "keyboard.png",
 	"galleryBanner": {
 		"color": "#0000FF",
 		"theme": "dark"
-	},
-	"icon": "keyboard.png",
-	"name": "resharper9-keybindings",
-	"scripts": {}
+	}
 }
